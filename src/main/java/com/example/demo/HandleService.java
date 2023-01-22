@@ -17,7 +17,7 @@ public class HandleService {
     public void save(){
         personRepository.save(new Person2("bauer2", "test"));
         treasureRepository.save(new Treasure2("yuan22", "zhibin22"));
-        throw new RuntimeException();
+        //throw new RuntimeException();
     }
 
 
